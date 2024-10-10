@@ -14,31 +14,57 @@ main .main ul li a .mainText h2 {color: #340B10; font-size: 3.44rem; font-weight
 main .main ul li a .mainText p {margin-top: 55px; color: #340B10; font-size: 1.38rem; font-weight: 500; line-height: 30px;}
 main .main ul li a img {position: absolute;}
 /* ===================================CONT1(best) 시작 */
-main .best {padding: 0 60px; display: flex; justify-content: space-between;}
-main .best .title {}
-main .best .title h2 {}
-main .best .title a {}
-main .best .categoryWrap {}
-main .best .categoryWrap .category {}
-main .best .categoryWrap .category li {}
-main .best .categoryWrap .category li a {}
-main .best .categoryWrap .category li a.active {}
+main .best {padding: 0 60px; display: flex; margin-bottom: 180px;}
+main .best .bestTitle_category {width: 480px; padding-right: 20px;}
+main .best .bestTitle_category .title {margin-bottom: 30px;}
+main .best .bestTitle_category .title h2 {font-size: 2.19rem; font-weight: bold; margin-bottom: 15px;}
+main .best .bestTitle_category .title a {font-size: 0.88rem; color: #868686; cursor: pointer;}
+main .best .bestTitle_category .category {}
+main .best .bestTitle_category .category li {margin-bottom: 18px;}
+main .best .bestTitle_category .category li a {}
+main .best .bestTitle_category .category li a.active {}
 /* 상품리스트 */
-main .best .categoryWrap .productList {}
-main .best .categoryWrap .productList .product {}
-main .best .categoryWrap .productList .product ul {display: flex; flex-wrap: wrap;}
-main .best .categoryWrap .productList .product ul li { margin-left: 20px;}
-main .best .categoryWrap .productList .product ul li a {}
-main .best .categoryWrap .productList .product ul li a .photo {}
-main .best .categoryWrap .productList .product ul li a .photo img {}
-main .best .categoryWrap .productList .product ul li a .infor {}
-main .best .categoryWrap .productList .product ul li a .infor h3 {}
-main .best .categoryWrap .productList .product ul li a .infor .subTitle {}
-main .best .categoryWrap .productList .product ul li a .infor .price {display: flex;}
-main .best .categoryWrap .productList .product ul li a .infor .price p {}
-main .best .categoryWrap .productList .product ul li a .infor .price p span {padding: 0 5px;}
-main .best .categoryWrap .productList .product ul li a .infor .price .sale {}
+main .best .productList {}
+main .best .productList .product {}
+main .best .productList .product ul {display: flex; justify-content: space-between; flex-wrap: wrap;}
+main .best .productList .product ul li {width: 359.25px; margin-bottom: 55px;}
+main .best .productList .product ul li a {}
+main .best .productList .product ul li a .photo {}
+main .best .productList .product ul li a .photo img {}
+main .best .productList .product ul li a .infor {margin-top: 20px;}
+main .best .productList .product ul li a .infor h3 {font-size: 1.13rem; font-weight: 500; margin-bottom: 10px;}
+main .best .productList .product ul li a .infor .subTitle {color: #565656; font-size: 0.88rem; line-height: 20px;}
+main .best .productList .product ul li a .infor .price {display: flex; margin-top: 10px; align-items: center;}
+main .best .productList .product ul li a .infor .price p {color: #565656;}
+main .best .productList .product ul li a .infor .price p span {padding: 0 5px; color: #000; font-size: 1.25rem;}
+main .best .productList .product ul li a .infor .price .sale {color: #FF451D; font-size: 1.13rem;}
 /* ===================================CONT2 시작 */
+main .event {padding: 0 60px; margin-bottom: 200px; display: flex;}
+main .event .left {}
+main .event .left ul {}
+main .event .left ul li {width: 435px;}
+main .event .left ul li a {display: block;}
+main .event .left ul li a .photo {}
+main .event .left ul li a .photo img {width: 435px;}
+main .event .left ul li a .infor {}
+main .event .left ul li a .infor .title {}
+main .event .left ul li a .infor .title span {}
+main .event .left ul li a .infor .hasTag {}
+main .event .left ul li a .infor .hasTag p{}
+
+
+main .event .right {margin-left: 20px;}
+main .event .right li {width: 435px; margin-bottom: 55px;}
+main .event .right li a {}
+main .event .right li a .photo {}
+main .event .right li a .photo img {}
+main .event .right li a .infor {margin-top: 20px;}
+main .event .right li a .infor h3 {font-size: 1.13rem; font-weight: 500; margin-bottom: 10px;}
+main .event .right li a .infor .subTitle {color: #565656; font-size: 0.88rem; line-height: 20px;}
+main .event .right li a .infor .price {display: flex; margin-top: 10px; align-items: center;}
+main .event .right li a .infor .price p {color: #565656;}
+main .event .right li a .infor .price p span {padding: 0 5px; color: #000; font-size: 1.25rem;}
+main .event .right li a .infor .price .sale {color: #FF451D; font-size: 1.13rem;}
 
 /* ===================================CONT3 시작 */
 
