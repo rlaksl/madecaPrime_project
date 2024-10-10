@@ -1,0 +1,22 @@
+body > * {min-width: 1850px;}
+/* ===================================Header 시작 */
+.event {width: 100%; height: 35px; background: #DEB6EA; text-align: center;}
+.event p {font-size: 0.88rem; color: #F2F2F2; line-height: 35px;}
+.event p span {color: #F2F2F2; font-weight: ;}
+header {position: fixed; top: 35px; left: 0; width: 100%; height: 80px; z-index: 100;  background: #f9f9f9; display: flex; justify-content: space-between; align-items: center; padding: 0 60px;}
+header.fix{position: fixed; top: 0; left: 0;}
+header .logo {}
+header .logo a {display: block; }
+header .logo a img {width: 100%; height: auto;}
+header nav {text-align: left; /* width: max-content; */}
+header nav .gnb {display: flex;}
+header nav .gnb > li {margin-left: 53px; }
+header nav .gnb > li:nth-child(1) a {color: #D983F2;}
+header nav .gnb > li:hover a {font-weight: 600; transition: all 0.5s;}
+header nav .gnb > li:nth-child(1) {margin: 0;}
+header nav .gnb > li a {}
+.sub {display: none;}
+header .lnb {display: flex;}
+header .lnb li {margin-left: 25px;}
+header .lnb li:nth-child(1) {margin: 0;}
+/* ===================================Footer 시작 */

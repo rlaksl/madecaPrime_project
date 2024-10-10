@@ -1,0 +1,63 @@
+/* ===================================mainVisual 시작 */
+main {padding-top: 80px;}/* 헤더 높이 */
+main .main {margin-bottom: 123px; height: 700px;}
+main .main .swiper-button-prev {left: 60px; color: #f8f8f8; transform: scaleX(1);}
+main .main .swiper-button-next {right: 60px; color: #f8f8f8; transform: scaleX(1);}
+main .main .swiper-pagination {bottom: 20px;}
+main .main .swiper-pagination-bullet {background: #f8f8f8; }
+main .main .swiper-pagination-bullet-active {width: 15px; height: 10px; border-radius: 10px;}
+main .main ul {}
+main .main ul li {position: relative;}
+main .main ul li a {display: block;}
+main .main ul li a .mainText { position: absolute; z-index: 100; top: 268px; left: 360px;}
+main .main ul li a .mainText h2 {color: #340B10; font-size: 3.44rem; font-weight: bold;}
+main .main ul li a .mainText p {margin-top: 55px; color: #340B10; font-size: 1.38rem; font-weight: 500; line-height: 30px;}
+main .main ul li a img {position: absolute;}
+/* ===================================CONT1(best) 시작 */
+main .best {padding: 0 60px; display: flex; justify-content: space-between;}
+main .best .title {}
+main .best .title h2 {}
+main .best .title a {}
+main .best .categoryWrap {}
+main .best .categoryWrap .category {}
+main .best .categoryWrap .category li {}
+main .best .categoryWrap .category li a {}
+main .best .categoryWrap .category li a.active {}
+/* 상품리스트 */
+main .best .categoryWrap .productList {}
+main .best .categoryWrap .productList .product {}
+main .best .categoryWrap .productList .product ul {display: flex; flex-wrap: wrap;}
+main .best .categoryWrap .productList .product ul li { margin-left: 20px;}
+main .best .categoryWrap .productList .product ul li a {}
+main .best .categoryWrap .productList .product ul li a .photo {}
+main .best .categoryWrap .productList .product ul li a .photo img {}
+main .best .categoryWrap .productList .product ul li a .infor {}
+main .best .categoryWrap .productList .product ul li a .infor h3 {}
+main .best .categoryWrap .productList .product ul li a .infor .subTitle {}
+main .best .categoryWrap .productList .product ul li a .infor .price {display: flex;}
+main .best .categoryWrap .productList .product ul li a .infor .price p {}
+main .best .categoryWrap .productList .product ul li a .infor .price p span {padding: 0 5px;}
+main .best .categoryWrap .productList .product ul li a .infor .price .sale {}
+/* ===================================CONT2 시작 */
+
+/* ===================================CONT3 시작 */
+
+/* ===================================CONT4(forYou) 시작 */
+
+/* ===================================CONT5(living) 시작 */
+
+/* ===================================CONT6(tech) 시작 */
+
+/* ===================================CONT7(Super brand) 시작 */
+
+/* ===================================CONT8(sportWrap) 시작 */
+
+/* ===================================CONT9(artShop) 시작 */
+
+
+/* ===================================banner 시작 */
+
+/* ===================================footer 시작 */
+
+#topBtn{display: block; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2;
+  text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}
