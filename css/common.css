@@ -20,3 +20,33 @@ header .lnb {display: flex;}
 header .lnb li {margin-left: 25px;}
 header .lnb li:nth-child(1) {margin: 0;}
 /* ===================================Footer 시작 */
+footer {border-top: 1px solid #414141;}
+footer .footerTop {padding: 100px 200px; display: flex; justify-content: space-between; align-items: end;}
+footer .footerTop .topLeft {}
+footer .footerTop .topLeft h3 {color: #414141; font-size: 1.25rem;}
+footer .footerTop .topLeft h2 {color: #414141; font-size: 1.63rem; margin: 17px 0;}
+footer .footerTop .topLeft .infor {color: #414141; font-size: 0.88rem; line-height: 25px;}
+footer .footerTop .topLeft .infor span {color: #868686; font-size: 0.88rem;}
+footer .footerTop .topLeft .button {display: flex;}
+footer .footerTop .topLeft .button a {width: 114px; height: 35px; color: #414141; font-size: 0.88rem; line-height: 35px; border: 1px solid #868686; text-align: center; margin-right: 17px; margin-top: 17px; transition: all 0.5s; cursor: pointer;}
+footer .footerTop .topLeft .button a:hover {color: #f2f2f2; background-color: #868686;}
+footer .footerTop .topRight {width: 500px;}
+footer .footerTop .topRight div {}
+footer .footerTop .topRight div a {color: #414141;}
+footer .footerTop .topRight div a:nth-child(2) {color: #262626; font-weight: 500;}
+footer .footerTop .topRight div a::after {content: '/'; margin-left: 7px;}
+footer .footerTop .topRight div a:last-child::after {content: '';}
+footer .footerTop .topRight .button {width: 114px; height: 35px; color: #414141; font-size: 0.88rem; line-height: 35px; border: 1px solid #868686; text-align: center; margin-right: 17px; margin-top: 17px; transition: all 0.5s; cursor: pointer;}
+footer .footerBottom {display: flex; justify-content: space-between; align-items: center;}
+footer .footerBottom .footerLogo {}
+footer .footerBottom ul {display: flex;}
+footer .footerBottom ul li {font-size: 0.88rem; color: #414141; margin-left: 15px;}
+footer .footerBottom ul li a {font-size: 0.88rem; color: #414141;}
+footer .footerBottom ul li:first-child {margin-left: 0;}
+footer .footerBottom >p {font-size: 0.88rem; color: #414141;}
+
+
+
+
+
+footer .footerBottom {padding: 0 200px; background: #f2f2f2; height: 60px;}

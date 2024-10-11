@@ -21,11 +21,12 @@ main .best .bestTitle_category .title h2 {font-size: 2.19rem; font-weight: bold;
 main .best .bestTitle_category .title a {font-size: 0.88rem; color: #868686; cursor: pointer;}
 main .best .bestTitle_category .category {}
 main .best .bestTitle_category .category li {margin-bottom: 18px;}
-main .best .bestTitle_category .category li a {}
-main .best .bestTitle_category .category li a.active {}
+main .best .bestTitle_category .category li a {color: #868686; font-size: 0.94rem; font-weight: 500;}
+main .best .bestTitle_category .category li a.active {color: #000; text-decoration: underline; font-size: 1rem; font-weight: 500;}
 /* 상품리스트 */
 main .best .productList {}
-main .best .productList .product {}
+main .best .productList .product {display: none;}
+main .best .productList .product.active {display: block;}
 main .best .productList .product ul {display: flex; justify-content: space-between; flex-wrap: wrap;}
 main .best .productList .product ul li {width: 359.25px; margin-bottom: 55px;}
 main .best .productList .product ul li a {}
@@ -40,24 +41,24 @@ main .best .productList .product ul li a .infor .price p span {padding: 0 5px; c
 main .best .productList .product ul li a .infor .price .sale {color: #FF451D; font-size: 1.13rem;}
 /* ===================================CONT2 시작 */
 main .event {padding: 0 60px; margin-bottom: 200px; display: flex;}
-main .event .left {}
+main .event .left {width: 435px;}
 main .event .left ul {}
-main .event .left ul li {width: 435px;}
+main .event .left ul li {}
 main .event .left ul li a {display: block;}
 main .event .left ul li a .photo {}
-main .event .left ul li a .photo img {width: 435px;}
+main .event .left ul li a .photo img {width: 100%;}
 main .event .left ul li a .infor {}
 main .event .left ul li a .infor .title {}
 main .event .left ul li a .infor .title span {}
 main .event .left ul li a .infor .hasTag {}
 main .event .left ul li a .infor .hasTag p{}
-
-
-main .event .right {margin-left: 20px;}
-main .event .right li {width: 435px; margin-bottom: 55px;}
-main .event .right li a {}
+/* right */
+main .event .rightWrap {width:calc(100% - 455px);}
+main .event .right {}
+main .event .right li { margin-bottom: 55px;}
+main .event .right li a {display: block;width: 335px;}
 main .event .right li a .photo {}
-main .event .right li a .photo img {}
+main .event .right li a .photo img {width: 335px; height: auto;}
 main .event .right li a .infor {margin-top: 20px;}
 main .event .right li a .infor h3 {font-size: 1.13rem; font-weight: 500; margin-bottom: 10px;}
 main .event .right li a .infor .subTitle {color: #565656; font-size: 0.88rem; line-height: 20px;}
@@ -65,16 +66,82 @@ main .event .right li a .infor .price {display: flex; margin-top: 10px; align-it
 main .event .right li a .infor .price p {color: #565656;}
 main .event .right li a .infor .price p span {padding: 0 5px; color: #000; font-size: 1.25rem;}
 main .event .right li a .infor .price .sale {color: #FF451D; font-size: 1.13rem;}
-
-/* ===================================CONT3 시작 */
-
+/* ===================================CONT3(synergy)시작 */
+main .synergy {display: flex; justify-content: space-between; padding: 0 60px; margin-bottom: 200px;}
+main .synergy .title {}
+main .synergy .title p {font-size: 1.13rem; margin-bottom: 10px;}
+main .synergy .title h2 {font-size: 2.19rem; font-weight: bold;}
+main .synergy .synergyProduct {display: flex; justify-content: space-between;}
+main .synergy .synergyProduct .synergyLeft {width: 738px; height: 700px;}
+main .synergy .synergyProduct .synergyLeft img {width: 100%;}
+main .synergy .synergyProduct .synergyRight {width: 738px; height: 700px; margin-left: 20px;}
+main .synergy .synergyProduct .synergyRight ul {}
+main .synergy .synergyProduct .synergyRight ul li {}
+main .synergy .synergyProduct .synergyRight ul li a {display: flex;}
+main .synergy .synergyProduct .synergyRight ul li a img {height: 284px;}
+main .synergy .synergyProduct .synergyRight ul li a .infor {margin-left: 20px;}
+main .synergy .synergyProduct .synergyRight ul li a .infor .subTitle {font-size: 0.88rem; color: #6D3A3F; margin-bottom: 6px;}
+main .synergy .synergyProduct .synergyRight ul li a .infor h3 {font-size: 1.13rem; font-weight: 500;}
+main .synergy .synergyProduct .synergyRight ul li a .infor > p {color: #565656; line-height: 25px; margin: 28px 0;}
+main .synergy .synergyProduct .synergyRight ul li a .infor .hashTag {display: flex;}
+main .synergy .synergyProduct .synergyRight ul li a .infor .hashTag p{font-size: 0.88rem; color: #f2f2f2; padding: 8px 10px; background-color: #6D3A3F; border-radius: 20px; margin-right: 10px;}
+main .synergy .synergyProduct .synergyRight ul li:nth-child(2) a .infor .subTitle {color: #40459F;}
+main .synergy .synergyProduct .synergyRight ul li:nth-child(2) a .infor .hashTag p{background-color: #40459F;}
+main .synergy .synergyProduct .synergyRight ul li:nth-child(3) a .infor .subTitle {color: #009A7F;}
+main .synergy .synergyProduct .synergyRight ul li:nth-child(3) a .infor .hashTag p{background-color: #009A7F;}
+main .synergy .synergyProduct .synergyRight ul li:nth-child(4) a .infor .subTitle {color: #ED7184;}
+main .synergy .synergyProduct .synergyRight ul li:nth-child(4) a .infor .hashTag p{background-color: #ED7184;}
+main .synergy .synergyProduct .synergyRight .swiper-button-prev {display: none;}
+main .synergy .synergyProduct .synergyRight .swiper-button-next {display: none;}
 /* ===================================CONT4(forYou) 시작 */
-
-/* ===================================CONT5(living) 시작 */
-
-/* ===================================CONT6(tech) 시작 */
-
-/* ===================================CONT7(Super brand) 시작 */
+main .bestEvent {padding: 0 60px; margin-bottom: 200px;}
+main .bestEvent .title {}
+main .bestEvent .title p {font-size: 1.13rem; margin-bottom: 10px;}
+main .bestEvent .title h2 {font-size: 2.19rem; font-weight: bold; margin-bottom: 50px;}
+main .bestEvent .product {display: flex; justify-content: space-between;}
+main .bestEvent .product .left {margin-right: 20px;}
+main .bestEvent .product .productList {}
+main .bestEvent .product .productList ul {}
+main .bestEvent .product .productList ul li {}
+main .bestEvent .product .productList ul li a {}
+main .bestEvent .product .productList ul li a .photo {}
+main .bestEvent .product .productList ul li a .photo img {}
+main .bestEvent .product .productList ul li a .infor {margin-top: 20px;}
+main .bestEvent .product .productList ul li a .infor h3 {font-size: 1.13rem; font-weight: 500;}
+main .bestEvent .product .productList ul li a .infor p {margin-top: 15px; display: flex; align-items: center;}
+main .bestEvent .product .productList ul li a .infor p del {color: #868686;}
+main .bestEvent .product .productList ul li a .infor p span {color: #40459F; font-size: 1.38rem; font-weight: 500; padding-left: 12px;}
+/* ===================================CONT5(review) 시작 */
+main .review {padding: 0 60px; margin-bottom: 200px; display: flex; justify-content: space-between;}
+main .review .title {width: 283px; margin-right: 20px;}
+main .review .title h2{font-size: 2.19rem; font-weight: bold; margin-bottom: 15px;}
+main .review .title a {font-size: 0.88rem; color: #868686; cursor: pointer;}
+main .review .title p {margin-top: 30px;}
+main .review .reviewList {width: calc(100% - 303px); display: flex; justify-content: space-between;}
+main .review .reviewList li {}
+main .review .reviewList li a {}
+main .review .reviewList li .photo {}
+main .review .reviewList li .photo img {}
+main .review .reviewList li .infor {margin-top: 20px;}
+main .review .reviewList li .infor .reviewTitle {font-weight: 500; margin-bottom: 15px;}
+main .review .reviewList li .infor .content {color: #868686; font-size: 0.88rem; margin-bottom: 15px;}
+main .review .reviewList li .infor .name {color: #868686; font-size: 0.88rem; margin-bottom: 15px;}
+main .review .reviewList li .product {display: flex; align-items: center;}
+main .review .reviewList li .product div > img {}
+main .review .reviewList li .product div > p {font-size: 0.88rem; margin-left: 10px}
+main .review .reviewList li .product div > .price {color: #414141; font-size: 0.81rem; margin-top: 8px;}
+/* ===================================CONT6(insta) 시작 */
+main .insta {width: 1800px; margin: 0 auto; margin-bottom: 200px;}
+main .insta h2 {font-size: 2.19rem; font-weight: bold; margin-bottom: 55px; text-align: center;}
+main .insta h2::after {content: '';}
+main .insta .list {display: flex;}
+main .insta .list a {margin-left: 20px; display: block; width: 435px;}
+main .insta .list a:first-child {margin-left: 0;}
+main .insta .list a img {width: 100%;}
+/* ===================================CONT7(banner) 시작 */
+main .banner {display: flex; margin-bottom: 250px;}
+main .banner a {display: block; width: 960px;}
+main .banner a img {width: 100%;}
 
 /* ===================================CONT8(sportWrap) 시작 */
 
