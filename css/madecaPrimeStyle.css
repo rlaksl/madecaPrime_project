@@ -1,0 +1,26 @@
+main .category {margin-top: 80px; padding: 0 211.5px;}
+main .category .categoryList {display: flex; justify-content: center; margin-bottom: 100px;}
+main .category .categoryList li {margin-left: 60px;}
+main .category .categoryList li:first-child {margin-left: 0;}
+main .category .categoryList li a {display: block; text-align: center;}
+main .category .categoryList li a img {}
+main .category .categoryList li a .categoryName {margin-top: 30px; transition: all 0.5s;}
+main .category .categoryList li:hover a .categoryName {font-weight: 500;}
+main .category .total {display: flex; justify-content: space-between; margin-bottom: 30px;}
+main .category .total tr {}
+main .category .total tr td {}
+main .category .total tr td select {}
+main .category .total tr td select option {}
+main .category .productList {display: flex; flex-wrap: wrap; justify-content: space-between;}
+main .category .productList li {margin-bottom: 74px;}
+main .category .productList li:nth-child(9),.productList li:nth-child(10), .productList li:nth-child(11), .productList li:nth-child(12) {margin-bottom: 135px;}
+main .category .productList li a {}
+main .category .productList li a .photo {}
+main .category .productList li a .photo img {}
+main .category .productList li a .infor {margin-top: 20px;}
+main .category .productList li a .infor h3 {font-size: 1.13rem; font-weight: 500; margin-bottom: 10px;}
+main .category .productList li a .infor .subTitle {color: #565656; font-size: 0.88rem; line-height: 20px;}
+main .category .productList li a .infor .price {display: flex; margin-top: 10px; align-items: center;}
+main .category .productList li a .infor .price p {color: #565656;}
+main .category .productList li a .infor .price p span {padding: 0 5px; color: #000; font-size: 1.25rem;}
+main .category .productList li a .infor .price .sale {color: #FF451D; font-size: 1.13rem;}

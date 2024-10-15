@@ -1,5 +1,4 @@
 /* ===================================mainVisual 시작 */
-main {padding-top: 80px;}/* 헤더 높이 */
 main .main {margin-bottom: 123px; height: 700px;}
 main .main .swiper-button-prev {left: 60px; color: #f8f8f8; transform: scaleX(1);}
 main .main .swiper-button-next {right: 60px; color: #f8f8f8; transform: scaleX(1);}
@@ -138,19 +137,3 @@ main .insta .list {display: flex;}
 main .insta .list a {margin-left: 20px; display: block; width: 435px;}
 main .insta .list a:first-child {margin-left: 0;}
 main .insta .list a img {width: 100%;}
-/* ===================================CONT7(banner) 시작 */
-main .banner {display: flex; margin-bottom: 250px;}
-main .banner a {display: block; width: 960px;}
-main .banner a img {width: 100%;}
-
-/* ===================================CONT8(sportWrap) 시작 */
-
-/* ===================================CONT9(artShop) 시작 */
-
-
-/* ===================================banner 시작 */
-
-/* ===================================footer 시작 */
-
-#topBtn{display: block; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2;
-  text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}

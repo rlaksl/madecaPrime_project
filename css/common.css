@@ -19,6 +19,14 @@ header nav .gnb > li a {}
 header .lnb {display: flex;}
 header .lnb li {margin-left: 25px;}
 header .lnb li:nth-child(1) {margin: 0;}
+/* ===================================main  시작 */
+main {padding-top: 80px;}/* 헤더 높이 */
+main .banner {display: flex; margin-bottom: 250px;}
+main .banner a {display: block; width: 960px;}
+main .banner a img {width: 100%;}
+/* ===================================topBtn 시작 */
+#topBtn{display: block; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2;
+  text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}
 /* ===================================Footer 시작 */
 footer {border-top: 1px solid #414141;}
 footer .footerTop {padding: 100px 200px; display: flex; justify-content: space-between; align-items: end;}
@@ -41,7 +49,8 @@ footer .footerBottom {display: flex; justify-content: space-between; align-items
 footer .footerBottom .footerLogo {}
 footer .footerBottom ul {display: flex;}
 footer .footerBottom ul li {font-size: 0.88rem; color: #414141; margin-left: 15px;}
-footer .footerBottom ul li a {font-size: 0.88rem; color: #414141;}
+footer .footerBottom ul li a {font-size: 0.75rem; color: #414141; cursor: pointer;}
+footer .footerBottom ul li a:hover {font-weight: 500;}
 footer .footerBottom ul li:first-child {margin-left: 0;}
 footer .footerBottom >p {font-size: 0.88rem; color: #414141;}
 
